@@ -14,11 +14,7 @@ export default function Home() {
  </head>
         
          <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-     
+            
     <div class="wrapper">
       <header id="home">
         <nav class="desktop-nav">

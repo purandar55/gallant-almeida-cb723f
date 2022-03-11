@@ -1,12 +1,24 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="UTF-8">
+import Head from 'next/head'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
+
+export default function Home() {
+  return (
+    <div className="container">
+      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="/favicon.ico" />
  </head>
-  <body>
+        
+         <main>
+        <Header title="Welcome to my app!" />
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
+     
     <div class="wrapper">
       <header id="home">
         <nav class="desktop-nav">
@@ -107,8 +119,8 @@
             recusandae?
           </p>
           <p>
-           <a href="https://wpgroupslink.com">Whatsapp Group Link</a><br>
-<a href="https://wpstatusline.com">Whatsapp Status Viodeo Download</a>
+           <a href="">Whatsapp Group Link</a><br>
+<a href="">Whatsapp Status Viodeo Download</a>
 <br>
 <a href="">New Status Video Download</a><br>
 <a href="">Sad Status Video Download</a><br>
@@ -208,4 +220,13 @@
     </script>
   
 
-<div class="ue-sidebar-container"></div></body></html>
+<div class="ue-sidebar-container"></div>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}
+
+
+
